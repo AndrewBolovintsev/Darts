@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    overflow:hidden;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    height: 80vh;
+}
+.fig {
+    text-align: center;
+}
+.card {
+    position: relative;
+}
+.hr {
+    border: none;
+    background-color: red;
+    height: 2px;
+}
+.absolute {
+    left: auto;
+    top: auto;
+}
+.bal {
+    position: absolute;
+    top: -24px;
+}
