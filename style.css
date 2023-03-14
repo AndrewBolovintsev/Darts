@@ -11,9 +11,7 @@ body {
 .fig {
     text-align: center;
 }
-.card {
-    position: relative;
-}
+
 .hr {
     border: none;
     background-color: red;
@@ -23,7 +21,28 @@ body {
     left: auto;
     top: auto;
 }
+
 .bal {
     position: absolute;
-    top: -24px;
+    top: 643px;
+    transition: top 0.5s;
+}
+
+.popados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.repeat-button *{
+    display: block;
+    text-decoration: none;
+    
+}
+
+.ball-image {
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s;
 }
