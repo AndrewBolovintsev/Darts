@@ -12,6 +12,10 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 .hr {
     border: none;
     background-color: red;
@@ -35,10 +39,14 @@ body {
     opacity: 0;
 }
 
-.repeat-button *{
-    display: block;
-    text-decoration: none;
-    
+.repeat-button {
+    cursor: pointer;
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fff;
+    transition: all .5s;
 }
 
 .ball-image {
